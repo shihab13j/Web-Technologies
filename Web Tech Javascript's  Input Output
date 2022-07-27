@@ -1,0 +1,22 @@
+<html>
+	<body id="body_div">
+				<P id="p2"> I am Moinul Hossain,student of AIUB </p>
+		<h2>Javascript</h2>
+		<div id="mydiv">
+		   <h3 id="heading"></h3>
+		   <p id="p1">JS</p>
+		   <button type="button" onclick="show()">Click</button>
+		</div>
+		<script>
+			function show()
+			{
+				document.getElementById('mydiv').style.backgroundColor="blue";
+				document.getElementById('p1').innerHTML="Hello Bangladesh!";
+				document.getElementById('p1').style.color="white";
+				document.getElementById('body_div').style.backgroundColor="black";
+				document.getElementById('p2').style.color="Yellow";
+				alert('Colour Changed!')
+			}
+		</script>
+	</body>
+</html>
