@@ -1,0 +1,39 @@
+<?php 
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="Student_lab1";
+$conn=new mysqli($servername,$username,$password,$dbname);
+if($conn->connect_error)
+{
+	die("SQL Connention failed!".$conn->connect_error);
+}
+else
+{
+	//Delete Part:
+	$query="DELETE FROM student WHERE ID=20431202";
+	$result=$conn->query($query);
+	if($result)
+		echo"Delete Successfully";
+	else
+		echo"Not Deleted";
+	//Insert Part:
+	$q="INSERT INTO STUDENT(ID,Name,Semester,Course) VALUES (20431201,'Moinul Hossain',8,'Web Technoloiges')";
+	$q="INSERT INTO STUDENT(Name,Semester,Course) VALUES ('Shihab',7,'Compiler Design')";
+	$result=$conn->query($q);
+	if($result)
+		echo"Data Inserted Successfully";
+    else
+    	echo"Data id=s not inserted";
+
+	//Update Part:
+	$q = "UPDATE STUDENT SET Name='Mehran Hossain' WHERE ID=20431201";
+	$result=$conn->query($q);
+	if($result)
+		echo"Data Updated Successfully";
+	    
+    else
+    	echo"Data is not updated";
+    	
+}
+?>
