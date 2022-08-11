@@ -1,0 +1,152 @@
+body{
+	background-color:#ffffff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100px;
+	margin:0px;
+}
+.container{
+	background-color:#ffffff;
+	border-radius:10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	height:450px;
+	width:350px;
+	overflow:hidden;
+}
+.header{
+	background-color:#ffffff;
+	text-align:center;
+	padding:5px 20px;
+}
+.header h3{
+	color:#8A06E5;
+	font-size: 35px;
+	font-weight: bold;
+}
+.container1{
+	background-color:#8A06E5;
+	border-radius:10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	height:450px;
+	width:350px;
+	overflow:hidden;
+	margin-left: 5px;
+}
+.container1 h4{
+	color:#ffffff;
+	font-size: 40px;
+	font-family: monospace;
+	text-align: center;
+	padding: 150px 100px;
+	font-weight:900;
+
+}
+
+.form{
+	padding:10px 20px;
+
+}
+.form-control{
+	margin-bottom:5px;
+	padding-bottom:20px;
+	position:relative;
+}
+.form-control label{
+	color:#8A06E5;
+	display:inline-block;
+	font-family: monospace;
+	
+	font-size: 20px;
+}
+.form-control input{
+	border:3px solid #8A06E5;
+	border-radius:5px;
+	display:block;
+	width:100%
+}
+.form-control i{
+	position:absolute;
+	top:37px;
+	right:10px;
+	visibility:hidden;
+}
+.form-control small{
+position:absolute;
+bottom:0px;
+color:red;
+left:0px;
+visibility:hidden;
+}
+.form-control1{
+	bottom:30px;
+	margin-bottom:5px;
+	padding-bottom:80px;
+	position:relative;
+}
+.form-control1 label{
+	display:inline-block;
+	color:#8A06E5;
+	font-family: monospace;
+	
+	font-size: 20px;
+	
+}
+.form-control1 input{
+	border:3px solid #8A06E5;
+	border-radius:5px;
+	display:block;
+	width:100%
+}
+.form-control1 i{
+	position:absolute;
+	top:37px;
+	right:10px;
+	visibility:hidden;
+}
+.form-control1 small{
+position:absolute;
+top:500px;
+color:red;
+left:0px;
+visibility:hidden;
+
+}
+.form h3{
+	color:#8A06E5;
+	width:100%;
+	font-size:16px;
+	margin-top: -30px;
+	margin-left: 100px;
+}
+.container1 button{
+	position: absolute;
+	background-color:#ffffff;
+	border-radius:15px;
+	border:2px solid #ffffff;
+	color:#8A06E5;
+	width:100px;
+	font-size:16px;
+	margin-left:100px;
+	margin-top: -80px;
+}
+.form button{
+	background-color:#8A06E5;
+	border-radius:15px;
+	border:2px solid #8A06E5;
+	color:#fff;
+	width:100px;
+	font-size:16px;
+	margin-top: 10px;
+	margin-left: 110px;
+	position: absolute;
+}
+.form a{
+	text-decoration: none;
+	color:#ffffff;
+	
+}
+
+
